@@ -13,7 +13,8 @@
     "velocity-animate": "^1.5.0",
     "vue": "^2.4.4",
     "vue-material": "^0.8.1",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vue-social-sharing": "^2.2.10"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
