@@ -1,17 +1,28 @@
 <template>
   <div id="app">
 			
-			<intro></intro>
+		<h1 class="">
+			<i class="material-icons">keyboard_arrow_right</i>
+			Héctor Menduíña Hermelo.
+		</h1>
+		<h1 class="">
+			<i class="material-icons">keyboard_arrow_right</i>
+			Front end passionate.
+		</h1>	
 
   </div>
 </template>
 
 <script>
 import intro from './components/intro.vue';
+import social from './components/social.vue';
 
 export default {
 	name: 'app',
-	components: { intro },
+	components: { 
+		intro,
+		social
+	},
   data () {
     return {
 			msg: 'Welcome to Your Vue.js App'
@@ -29,14 +40,14 @@ export default {
 <style lang="scss">
 html,
 body {
-	background: #00c1ac;
+	// background: #00c1ac;
 	font-size: 10px;
 }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  text-align: left;
   color: #2c3e50;
   margin-top: 60px;
 }
