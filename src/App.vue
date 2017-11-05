@@ -10,19 +10,16 @@
 			Front end passionate.
 		</h1>	
 
+		<!-- <intro></intro>
+		<social></social> -->
   </div>
 </template>
 
 <script>
-import intro from './components/intro.vue';
-import social from './components/social.vue';
+
 
 export default {
 	name: 'app',
-	components: { 
-		intro,
-		social
-	},
   data () {
     return {
 			msg: 'Welcome to Your Vue.js App'
