@@ -1,17 +1,8 @@
 <template>
   <div id="app">
-			
-		<h1 class="">
-			<i class="material-icons">keyboard_arrow_right</i>
-			Héctor Menduíña Hermelo.
-		</h1>
-		<h1 class="">
-			<i class="material-icons">keyboard_arrow_right</i>
-			Front end passionate.
-		</h1>	
 
-		<!-- <intro></intro>
-		<social></social> -->
+		<router-view></router-view>
+		
   </div>
 </template>
 
@@ -32,6 +23,8 @@ export default {
 		
 	}
 }
+
+
 </script>
 
 <style lang="scss">

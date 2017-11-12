@@ -1,6 +1,8 @@
 // VueJs Core
 import Vue from 'vue';
+import VueRouter from 'vue-router';
 import App from './App.vue';
+import router from "./router";
 
 // External
 import Velocity from "velocity-animate";
@@ -9,16 +11,18 @@ import Velocity from "velocity-animate";
 import intro from './components/intro.vue';
 import social from './components/social.vue';
 
+
 // Register Global Components
 Vue.component('intro', intro);
 Vue.component('social', social);
+Vue.use(VueRouter);
 
 // Root APP
 new Vue({
-	components: { 
-		intro,
-		social
-	},
+	router,
 	el: '#app',
   render: h => h(App)
-})
+}).$mount('#app')
+
+// Initialize Firebase
+firebase.initializeApp(config);
