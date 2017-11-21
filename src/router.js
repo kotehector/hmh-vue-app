@@ -1,8 +1,8 @@
 import VueRouter from "vue-router";
 
-import auth from './components/auth.vue';
-import authSuccess from './components/auth-success.vue';
-import home from './home/home.vue';
+import auth from './app/login/auth.vue';
+import authSuccess from './app/login/auth-success.vue';
+import home from './app/home/home.vue';
 
 const routes = [{
   mode: 'history',

@@ -11,10 +11,9 @@ import Velocity from "velocity-animate";
 import intro from './components/intro.vue';
 import social from './components/social.vue';
 
-
 // Register Global Components
-Vue.component('intro', intro);
-Vue.component('social', social);
+// Vue.component('intro', intro);
+// Vue.component('social', social);
 Vue.use(VueRouter);
 
 // Root APP
