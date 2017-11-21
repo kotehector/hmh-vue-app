@@ -5,13 +5,13 @@ import authSuccess from './app/login/auth-success.vue';
 import home from './app/home/home.vue';
 
 const routes = [{
-  mode: 'history',
+	mode: 'history',
 	path: '/',
 	component: home
-},{
-	path: '/auth',
+}, {
+	path: '/login',
 	component: auth
-},{
+}, {
 	path: '/auth-success',
 	component: authSuccess
 }]
